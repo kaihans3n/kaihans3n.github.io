@@ -1,1 +1,1 @@
-[Tinjau T.html](/kaihans/T.html) 
+[Tinjau T.html](https://kaihans3n.github.io/kaihans/T.html) 
