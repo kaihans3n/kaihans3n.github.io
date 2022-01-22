@@ -1,1 +1,1 @@
-[Tinjau T.html](/kaihans3n/T.html) 
+[Tinjau T.html](/kaihans/T.html) 
