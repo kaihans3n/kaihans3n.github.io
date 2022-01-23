@@ -19,7 +19,7 @@ document.getElementById("oct").innerHTML = text2;
 
 var text3 = "<ol start='0'>";
 for (var k = 0; k <= 255; k++) {
-  text3 += "<li>" + k.toString(16) + "</li>";
+  text3 += "<li>" + k.toString(16).toUpperCase() + "</li>";
 }
 text3 += "</ol>";
 document.getElementById("hex").innerHTML = text3;
