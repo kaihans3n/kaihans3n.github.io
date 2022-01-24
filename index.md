@@ -1,1 +1,1 @@
-[T](https://kaihans3n.github.io/T.html) 
+[cek bilangan ganjil genap](https://kaihan3n.github.io/odd_even.html) 
