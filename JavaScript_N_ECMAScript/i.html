@@ -7,8 +7,13 @@
 </head>
 <body>
 <script>
-const data = require('./JavaScript_N_ECMAScript/i.json');
-document.write(data);
+
+fetch("./i.json")
+.then(response => {
+   return response.json();
+})
+.then(data => document.write(data));
+
 </script>
 </body>
 </html>
