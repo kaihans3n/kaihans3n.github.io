@@ -9,10 +9,9 @@
 <script>
 
 fetch("./i.json")
-.then(response => {
-   return response.json();
-})
-.then(data => document.write(JSON.parse(data)));
+.then(response => 
+   response.json())
+.then(data => document.write(data));
 
 </script>
 </body>
