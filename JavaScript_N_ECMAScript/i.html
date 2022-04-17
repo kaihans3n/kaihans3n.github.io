@@ -8,11 +8,11 @@
 <body>
 <script>
 
-fetch("./JavaScript_N_ECMAScript/i.json")
+fetch("./i.json")
 .then(response => {
    return response.json();
 })
-.then(data => document.write(data));
+.then(data => document.write(JSON.parse(data)));
 
 </script>
 </body>
