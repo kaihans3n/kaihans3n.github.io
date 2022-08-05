@@ -3,5 +3,28 @@
 <script src="https://fedrikaristiyanto.github.io/Music-Player/javascript/playlist.js" type="text/javascript"></script>
 
 </head>
-<body></body>
+
+<body onload="loadFirstArray()">
+
+<figure>
+<figcaption id="Caption"></figcaption>
+<audio id="Audio" src="" onended="next()" controls></audio>
+</figure>
+
+<script>
+var Caption =[
+"Dido - White Flag",
+"Van Halen - White Flag",
+"Dave Grusin - Crystal Morning"
+];
+var Source =[
+"https://fedrikaristiyanto.github.io/files/audio/1 - White Flag.mp3",
+"https://fedrikaristiyanto.github.io/files/audio/van halen - 316.mp3",
+"https://bit.ly/3LaX9ii"
+];
+</script>
+
+</body>
+
+
 </html>
