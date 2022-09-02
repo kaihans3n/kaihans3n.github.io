@@ -1,3 +1,3 @@
-- [cek bilangan ganjil genap](https://kaihans3n.github.io/odd_even.html)<br>
+- [Cek bilangan ganjil genap](https://kaihans3n.github.io/odd_even.html)<br>
 - [Cube root](https://kaihans3n.github.io/cbrt) <br>
 - [What is My screen resolution](https://kaihans3n.github.io/ScreenResolution.html) 
