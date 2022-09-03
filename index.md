@@ -2,3 +2,5 @@
 - [Cube root](https://kaihans3n.github.io/cbrt)
 - [Digital Clock](https://kaihans3n.github.io/digiClock.html) 
 - [What is My screen resolution](https://kaihans3n.github.io/ScreenResolution.html) 
+<hr>
+<div align="right">kaihans3n.github.io</div>
