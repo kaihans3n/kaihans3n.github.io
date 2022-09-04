@@ -1,4 +1,4 @@
-
+:memo:
 - [Cek bilangan ganjil genap](https://kaihans3n.github.io/odd_even.html)
 - [Cube root](https://kaihans3n.github.io/cbrt)
 - [Digital Clock](https://kaihans3n.github.io/digiClock.html) 
