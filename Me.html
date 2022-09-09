@@ -23,7 +23,15 @@
 </div>
 
 <div class="footer">
-<p>kaihans3n.github.io</p>
+
+<p id="Hostname"></p>
+<script>
+document.body.onload=function(){hostName()};
+function hostName(){
+document.getElementById("Hostname").innerHTML="x" + window.location.hostname;
+}
+</script>
+
 </div>
 
 </body>
