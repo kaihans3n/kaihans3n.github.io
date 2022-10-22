@@ -14,5 +14,17 @@
 <div class="container">
 <iframe width="100%" height="300px" src="https://youtube.com/embed/Sh5S3OxiE-s"></iframe>
 </div>
+
+<div class="footer">
+
+<p id="Hostname"></p>
+<script>
+document.body.onload=function(){hostName()};
+function hostName(){
+document.getElementById("Hostname").innerHTML=window.location.hostname;
+}
+</script>
+
+</div>
 </body>
 </html>
