@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>web safe color</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link href="/css/Theme_colorNames.css"  rel="stylesheet" type="text/css" />
+<script src="https://fedrikaristiyanto.github.io/scripts/webSafeColor.js">
+</script>
+<style>
+body{
+background-color:mintCream;
+}
+
+input[type=range]{
+width:200px;
+}
+
+#footer {
+ background-color:rgba(32,178,170,0.4);
+ color:black;text-align:right;
+ padding:5px;
+ position:fixed;
+ bottom:0;left:8px;right:8px;
+}
+
+</style>
+
+    </head>
+    <body>
+
+
+      <form>
+ <input step="3" type="range" min="0" max="15" id="rangeInp1" oninput="webSafeColor()"> <br>
+       <input step="3" type="range" min="0" max="15" id="rangeInp2" oninput="webSafeColor()"><br>
+       <input step="3" type="range" min="0" max="15" id="rangeInp3" oninput="webSafeColor()"><br>
+       
+       <input class="AntiqueWhite" id="val" readonly>
+<input type="reset" value="reset">
+<br>
+       <textarea rows="10" cols="25" id="pratinjau" readonly></textarea><br>
+       <input type="button" onclick="pratinjau.style.backgroundColor='#FFF'" value="reset to default textarea background">
+
+
+       </form>
+        <div id="footer"><address>__</address></div>
+
+        
+    </body>
+</html>
